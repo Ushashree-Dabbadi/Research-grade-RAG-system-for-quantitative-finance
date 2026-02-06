@@ -34,7 +34,7 @@ def main():
     print("\n[4/4] Building FAISS index...")
     build_faiss_index(chunks, index_dir)
 
-    print("\n✅ FAISS index built successfully")
+    print("\n FAISS index built successfully")
 
 
 if __name__ == "__main__":

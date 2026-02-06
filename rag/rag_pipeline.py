@@ -1,3 +1,12 @@
+import warnings
+
+warnings.filterwarnings(
+    "ignore",
+    message="`resume_download` is deprecated",
+    category=FutureWarning,
+)
+
+
 import os
 from transformers import pipeline
 from backend.vector_store import load_faiss_index

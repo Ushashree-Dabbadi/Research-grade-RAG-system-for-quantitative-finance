@@ -1,3 +1,11 @@
+import warnings
+
+warnings.filterwarnings(
+    "ignore",
+    message="`resume_download` is deprecated",
+    category=FutureWarning,
+)
+
 import os
 import sys
 
